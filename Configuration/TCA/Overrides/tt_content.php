@@ -9,7 +9,7 @@
 declare(strict_types=1);
 defined('TYPO3') or die();
 
-call_user_func(function ($extKey ='ucph_ce_html', $contentType ='ucph_ce_regular_text') {
+call_user_func(function ($extKey ='ucph_ce_html', $contentType ='ucph_ce_html') {
     // Adds the content element to the "Type" dropdown
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
         'tt_content',
@@ -18,10 +18,8 @@ call_user_func(function ($extKey ='ucph_ce_html', $contentType ='ucph_ce_regular
             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:ucph_ce_html_title',
             $contentType,
             // icon identifier
-            'content-text',
-        ],
-        'textmedia',
-        'after'
+            'content-special-html',
+        ]
     );
 
     // Add Content Element
@@ -53,8 +51,7 @@ call_user_func(function ($extKey ='ucph_ce_html', $contentType ='ucph_ce_regular
         'columnsOverrides' => [
             'bodytext' => [
                 'config' => [
-                    'enableRichtext' => true,
-                    'richtextConfiguration' => 'default',
+                    'enableRichtext' => false,
                 ],
             ],
         ],

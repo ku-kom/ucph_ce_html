@@ -15,6 +15,6 @@ call_user_func(function ($extKey='ucph_ce_html') {
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         $extKey,
         'Configuration/TypoScript',
-        'UCPH TYPO3 content element "regular text"'
+        'UCPH TYPO3 content element "HTML"'
     );
 });
