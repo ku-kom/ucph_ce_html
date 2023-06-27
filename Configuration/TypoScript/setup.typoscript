@@ -1,6 +1,6 @@
-#############################################
-#### UCPH CONTENT ELEMENT "rEGULAR HTML" ####
-#############################################
+tt_content.ucph_ce_html >
+# CTYPE: HTML
+
 tt_content.ucph_ce_html =< lib.contentElement
 tt_content.ucph_ce_html {
 	templateName = Html
