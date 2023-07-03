@@ -4,7 +4,13 @@ tt_content.ucph_ce_html >
 tt_content.ucph_ce_html =< lib.contentElement
 tt_content.ucph_ce_html {
 	templateName = Html
-	templateRootPaths.100 = EXT:ucph_ce_html/Resources/Private/Templates/
-    partialRootPaths.100 = EXT:ucph_ce_html/Resources/Private/Partials/
-    layoutRootPaths.100 = EXT:ucph_ce_html/Resources/Private//Layouts/
+    templateRootPaths {
+        100 = EXT:ucph_ce_html/Resources/Private/Templates/
+    }
+    partialRootPaths {
+        100 = EXT:ucph_ce_html/Resources/Private/Partials/
+    }
+    layoutRootPaths {
+        100 = EXT:ucph_ce_html/Resources/Private/Layouts/
+    }
 }
