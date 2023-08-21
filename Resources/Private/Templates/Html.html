@@ -2,11 +2,6 @@
 <f:layout name="Default" />
 <f:section name="Main">
     <div id="c{data.uid}" class="{data.CType}">
-        <f:if condition="{data.header}">
-            <h2>
-                <f:format.htmlspecialchars doubleEncode="false">{data.header}</f:format.htmlspecialchars>
-            </h2>
-        </f:if>
         <f:format.raw>{data.bodytext}</f:format.raw>
     </div>
 </f:section>
