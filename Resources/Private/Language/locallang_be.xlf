@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-    <file source-language="en" datatype="plaintext" original="EXT:ucph_ce_html/Resources/Private/Language/locallang_be.xlf" date="2023-06-21T10:27:00Z" product-name="ucph_ce_html">
+    <file source-language="en" datatype="plaintext" original="EXT:ucph_content_html/Resources/Private/Language/locallang_be.xlf" date="2023-06-21T10:27:00Z" product-name="ucph_content_html">
         <header>
             <authorName>Nanna Ellegaard</authorName>
             <authorEmail>nel@adm.ku.dk</authorEmail>
         </header>
         <body>
-        <trans-unit id="ucph_ce_html_title">
+        <trans-unit id="ucph_content_html_title">
             <source>Plain HTML</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_html_desc">
+        <trans-unit id="ucph_content_html_desc">
             <source>With this element you can insert raw HTML code on the page.</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_html_internal_title">
+        <trans-unit id="ucph_content_html_internal_title">
             <source>Internal title - not displayed in the frontend</source>
         </trans-unit>
         </body>

@@ -2,15 +2,15 @@ mod.wizards.newContentElement.wizardItems {
   // add the content element to the tab "Special elelemts"
   special {
     elements {
-      ucph_ce_html {
+      ucph_content_html {
         iconIdentifier = content-special-html
-        title = LLL:EXT:ucph_ce_html/Resources/Private/Language/locallang_be.xlf:ucph_ce_html_title
-        description = LLL:EXT:ucph_ce_html/Resources/Private/Language/locallang_be.xlf:ucph_ce_html_desc
+        title = LLL:EXT:ucph_content_html/Resources/Private/Language/locallang_be.xlf:ucph_content_html_title
+        description = LLL:EXT:ucph_content_html/Resources/Private/Language/locallang_be.xlf:ucph_content_html_desc
         tt_content_defValues {
-          CType = ucph_ce_html
+          CType = ucph_content_html
         }
       }
     }
-    show := addToList(ucph_ce_html)
+    show := addToList(ucph_content_html)
   }
 }

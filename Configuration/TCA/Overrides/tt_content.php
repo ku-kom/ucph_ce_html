@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the package ucph_ce_html.
+ * This file is part of the package ucph_content_html.
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
  * June 2023 Nanna Ellegaard, University of Copenhagen.
@@ -9,13 +9,13 @@
 declare(strict_types=1);
 defined('TYPO3') or die();
 
-call_user_func(function ($extKey ='ucph_ce_html', $contentType ='ucph_ce_html') {
+call_user_func(function ($extKey ='ucph_content_html', $contentType ='ucph_content_html') {
     // Adds the content element to the "Type" dropdown
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
         'tt_content',
         'CType',
         [
-            'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:ucph_ce_html_title',
+            'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:ucph_content_html_title',
             $contentType,
             // icon identifier
             'content-special-html',
@@ -32,7 +32,7 @@ call_user_func(function ($extKey ='ucph_ce_html', $contentType ='ucph_ce_html') 
         'showitem' => '
             --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
                --palette--;;general,
-               header; LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:ucph_ce_html_internal_title,
+               header; LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:ucph_content_html_internal_title,
                bodytext;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:bodytext_formlabel,
                --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
                --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,

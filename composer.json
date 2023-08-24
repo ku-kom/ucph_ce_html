@@ -1,5 +1,5 @@
 {
-    "name": "university-of-copenhagen/ucph-ce-html",
+    "name": "university-of-copenhagen/ucph-content-html",
     "type": "typo3-cms-extension",
     "description": "UCPH TYPO3 content element \"HTML\"",
     "authors": [{
@@ -13,12 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "UniversityOfCopenhagen\\UcphCeHtml\\": "Classes/"
+            "UniversityOfCopenhagen\\UcphContentHtml\\": "Classes/"
         }
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "ucph_ce_html"
+            "extension-key": "ucph_content_html"
         }
     }
 }
