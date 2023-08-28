@@ -12,9 +12,6 @@
         <trans-unit id="ucph_content_html_desc">
             <source>With this element you can insert raw HTML code on the page.</source>
         </trans-unit>
-        <trans-unit id="ucph_content_html_internal_title">
-            <source>Internal title - not displayed in the frontend</source>
-        </trans-unit>
         </body>
     </file>
 </xliff>
